@@ -1,0 +1,12 @@
+.product{
+    min-height: 500px !important;
+}
+
+.type-list{
+    list-style-type: none;
+    text-transform: capitalize;
+}
+
+.selected-type{
+    background-color: mediumseagreen;
+}
