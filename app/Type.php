@@ -12,4 +12,11 @@ class Type extends Model
    {
        return self::$TypesArray;
    }
+
+   public static function getAll()
+   {
+       return Type::all();
+   }
+
+
 }

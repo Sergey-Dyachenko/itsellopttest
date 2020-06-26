@@ -70,7 +70,7 @@
         <div class="container">
             <div class="text-left">
             @foreach($types as $type)
-                    <a href="#"> <li class="type-list" data-id="{{$type->id}}">{{$type->name}}</li></a>
+                    <a href="#"> <li class="type-list" data-id="{{$type->id}}">{{$type->name}} ({{$type->count}})</li></a>
             @endforeach
             </div>
         </div>
